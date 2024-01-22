@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/favIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <audio class="hoverSound">
+      <source src="/sounds/hover.mp3" type="audio/mp3">
+    </audio> 
+    <title>Split Studios</title> 
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/images/logo.png" alt="Split Studios Logo" onclick="redirectToLink('https://www.google.com')"/>
+      </div>
+      <ul class="menu">
+        <li class="addLi">
+          <div class="addB">Add-ons</div>
+        </li>
+        <li class="artLi">
+          <div class="artB">Art</div>
+        </li>
+        <li class="tutLi">
+          <div class="tutB">Tutorials</div>
+        </li>
+        <li class="contLi">
+          <div class="contB">Support</div>
+        </li>
+        <li class="donLi">
+          <div class="donB">Donate <div style="display: flex; color: red; font-size: 1em;"> &hearts;</div></div>
+        </li>
+      </ul>
+      <div class="social">
+        <a class="gumroad" href="https://splitcg.gumroad.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="8" fill="black" stroke="none" />
+            <path id="fill" fill="white" d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12a12 12 0 0 0 12-12A12 12 0 0 0 12 0m-.007 5.12c4.48 0 5.995 3.025 6.064 4.744h-3.239c-.069-.962-.897-2.406-2.896-2.406c-2.136 0-3.514 1.857-3.514 4.126c0 2.27 1.378 4.125 3.514 4.125c1.93 0 2.758-1.512 3.103-3.025h-3.103v-1.238h6.509v6.327h-2.855v-3.989c-.207 1.444-1.102 4.264-4.617 4.264c-3.516 0-5.584-2.82-5.584-6.326c0-3.645 2.276-6.602 6.618-6.602"/>
+          </svg>
+        </a>
+        <a class="youtube" href="https://youtube.com/@splitcg" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 256 180">
+            <path id="fill" fill="white" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134"/>
+            <path id="fill2" fill="black" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/>
+          </svg>
+        </a>
+        <a class="twitter" href="https://twitter.com/splitcg" target="_blank">
+          <svg  xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="328 350 350 300">
+            <path id="fill" fill="white" d="
+            M 630, 425
+            A 195, 195 0 0 1 331, 600
+            A 142, 142 0 0 0 428, 570
+            A  70,  70 0 0 1 370, 523
+            A  70,  70 0 0 0 401, 521
+            A  70,  70 0 0 1 344, 455
+            A  70,  70 0 0 0 372, 460
+            A  70,  70 0 0 1 354, 370
+            A 195, 195 0 0 0 495, 442
+            A  67,  67 0 0 1 611, 380
+            A 117, 117 0 0 0 654, 363
+            A  65,  65 0 0 1 623, 401
+            A 117, 117 0 0 0 662, 390
+            A  65,  65 0 0 1 630, 425
+            Z"/>
+          </svg>
+        </a>
+        <a class="sketchfab" href="https://sketchfab.com/splitcg" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 24 24">
+            <circle id="fill" cx="12" cy="12" r="8" fill="black" stroke="none" />
+            <path id="fill2" fill="white" d="M11.3 0A11.983 11.983 0 0 0 .037 11a13.656 13.656 0 0 0 0 2a11.983 11.983 0 0 0 11.29 11h1.346a12.045 12.045 0 0 0 11.3-11.36a13.836 13.836 0 0 0 0-1.7A12.049 12.049 0 0 0 12.674 0zM15 6.51l2.99 1.74s-6.064 3.24-6.084 3.24S5.812 8.27 5.8 8.26l2.994-1.77l2.992-1.76zm-6.476 5.126L11 13v5.92l-2.527-1.4l-2.46-1.43v-5.76zm9.461 1.572v2.924L15.5 17.574L13 19.017v-6.024l2.489-1.345l2.5-1.355z"/>
+          </svg>          
+        </a>
+      </div>
+      <script>
+        function redirectToLink(url) {
+          window.location.href = url;
+        }
+        var hoverElements = document.getElementsByTagName('li');
+        var hoverSound = document.querySelector('.hoverSound');
+    
+        var hoverElementsArray = Array.from(hoverElements);
+        // Add hover event listeners to all elements with the class 'hoverElement'
+        hoverElementsArray.forEach(function(element) {
+          element.addEventListener('mouseenter', function() {
+            // Play the sound when hovering
+            hoverSound.play();
+          });
+        });
+
+      </script>
+    </header>
+
+    <div class="banner">
+      <img class="gun" src="/images/gun.jpg" alt="banner1"/>
+      <img class="gunOc" src="/images/gunOC.jpg" alt="banner2"/>
+    </div>
+      <div class="gridI">
+        <div class="gridE">
+          <div class="p">
+            <h1>Split Studios</h1>
+            <p>
+              Is a great choice for anyone looking for high-quality graphics solutions and tools. We are dedicated to providing the best possible service to our clients, and we are always looking for new and innovative ways to improve our products.         
+            </p>
+          </div>
+        </div>
+        <div class="gridE">
+          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/JVXLsQlCY5g?si=1L7SYZIwC6o5dtqd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+        </div>
+        <div class="gridE">
+          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/FVNN239pmPM?si=CCscXYxNvY6ugJEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="gridE">
+          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/xYIxRH-VMOY?si=gfQG2qpaU4qRO76K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+      </div>
+
+      <footer class="footer">
+        <p style="text-align: center;">
+          ABOUT US <br/>
+          A small team with years of experience. <br/>
+          We create Add-ons and game assets.
+        </p>
+        <div class="socialBot">
+          <a class="gumroad" href="https://splitcg.gumroad.com" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="8" fill="black" stroke="none" />
+              <path id="fill" fill="white" d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12a12 12 0 0 0 12-12A12 12 0 0 0 12 0m-.007 5.12c4.48 0 5.995 3.025 6.064 4.744h-3.239c-.069-.962-.897-2.406-2.896-2.406c-2.136 0-3.514 1.857-3.514 4.126c0 2.27 1.378 4.125 3.514 4.125c1.93 0 2.758-1.512 3.103-3.025h-3.103v-1.238h6.509v6.327h-2.855v-3.989c-.207 1.444-1.102 4.264-4.617 4.264c-3.516 0-5.584-2.82-5.584-6.326c0-3.645 2.276-6.602 6.618-6.602"/>
+            </svg>
+          </a>
+          <a class="youtube" href="https://youtube.com/@splitcg" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 256 180">
+              <path id="fill" fill="white" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134"/>
+              <path id="fill2" fill="black" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/>
+            </svg>
+          </a>
+          <a class="twitter" href="https://twitter.com/splitcg" target="_blank">
+            <svg  xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="328 350 350 300">
+              <path id="fill" fill="white" d="
+              M 630, 425
+              A 195, 195 0 0 1 331, 600
+              A 142, 142 0 0 0 428, 570
+              A  70,  70 0 0 1 370, 523
+              A  70,  70 0 0 0 401, 521
+              A  70,  70 0 0 1 344, 455
+              A  70,  70 0 0 0 372, 460
+              A  70,  70 0 0 1 354, 370
+              A 195, 195 0 0 0 495, 442
+              A  67,  67 0 0 1 611, 380
+              A 117, 117 0 0 0 654, 363
+              A  65,  65 0 0 1 623, 401
+              A 117, 117 0 0 0 662, 390
+              A  65,  65 0 0 1 630, 425
+              Z"/>
+            </svg>
+          </a>
+          <a class="sketchfab" href="https://sketchfab.com/splitcg" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 24 24">
+              <circle id="fill" cx="12" cy="12" r="8" fill="black" stroke="none" />
+              <path id="fill2" fill="white" d="M11.3 0A11.983 11.983 0 0 0 .037 11a13.656 13.656 0 0 0 0 2a11.983 11.983 0 0 0 11.29 11h1.346a12.045 12.045 0 0 0 11.3-11.36a13.836 13.836 0 0 0 0-1.7A12.049 12.049 0 0 0 12.674 0zM15 6.51l2.99 1.74s-6.064 3.24-6.084 3.24S5.812 8.27 5.8 8.26l2.994-1.77l2.992-1.76zm-6.476 5.126L11 13v5.92l-2.527-1.4l-2.46-1.43v-5.76zm9.461 1.572v2.924L15.5 17.574L13 19.017v-6.024l2.489-1.345l2.5-1.355z"/>
+            </svg>          
+          </a>
+        </div>
+        <div class="copyRights"> &copy; 2019-2024 Split Studios. All rights reserved. </div>
+      </footer>
+  </body>
+  </html>
