@@ -96,8 +96,6 @@ body{
 }
 .addLi:hover .addB, .artLi:hover .artB, .tutLi:hover .tutB, .contLi:hover .contB, .donLi:hover .donB{
   color: #0099ff;
-  font-size: 1.8em;
-  transition-duration: 0.5s;
 }
 .addLi:hover .line, .artLi:hover .line, .tutLi:hover .line, .contLi:hover .line, .donLi:hover .line{
   background-color: #0099ff;
