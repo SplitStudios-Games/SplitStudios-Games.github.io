@@ -19,3 +19,7 @@ function toggleActive(trigger) {
   function redirectToLink(url) {
     window.location.href = url;
   }
+
+  function openLinkInNewTab(url) {
+    window.open(url, '_blank');
+  }

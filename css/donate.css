@@ -1,0 +1,82 @@
+.donateDiv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 1.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(32, 32, 32);
+}
+.awesome, .quote, .thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.paypal{
+    font-weight: 300;
+    font-weight: 400;
+    color: black;
+    font-size: 2em;
+    border-radius: 2em;
+    background-color: #FFBF4C;
+    text-align: center;
+    vertical-align: middle;
+    height: 2em;
+    width: 6em;
+    border-style: none;
+    margin-right: 2em;
+}
+.gum{
+    font-weight: 300;
+    font-weight: 400;
+    color: black;
+    font-size: 2em;
+    border-radius: 2em;
+    background-color: #ff90e7;
+    text-align: center;
+    vertical-align: middle;
+    height: 2em;
+    width: 6em;
+    border-style: none;
+    margin-left: 2em;
+}
+.paypal:hover, .gum:hover{
+    color: white;
+    background-color: #0099ff;
+    cursor: pointer;
+}
+.awesome{
+    font-size: 2.5em;
+}
+.quote{
+    font-size: 1.5em;
+}
+.thanks{
+    font-size: 2em;
+    margin-bottom: 20vh;
+}
+@media screen and (max-width:42em) {
+    .buttons{
+        flex-direction: column;
+    }
+    .paypal{
+        margin-right: 0;
+        margin-bottom: 0.4em;
+    }
+    .gum{
+        margin-left: 0;
+        margin-top: 0.4em;
+    }
+  }
