@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2ERM1QFZ8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-H2ERM1QFZ8');
+    </script>
+    
     <link rel="icon" href="/images/favIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css"/>
-    <audio class="hoverSound">
-      <source src="/sounds/hover.mp3" type="audio/mp3">
-    </audio> 
+    <script src="/scripts/script.js"></script>
     <title>Split Studios</title> 
   </head>
   <body>
@@ -78,26 +87,6 @@
         </ul>
       </div>
 
-      <script>
-        function toggleActive(trigger) {
-          trigger.classList.toggle("active");
-          var lines = document.querySelectorAll('.listRec');
-          var listMenu = document.getElementsByClassName("listMenu")[0];
-
-          if(trigger.classList.contains("active")){
-            lines.forEach(function(element, index){
-              element.style.backgroundColor = "#0099ff";
-            });
-            listMenu.style.display = "flex";
-          }else{
-            lines.forEach(function(element, index){
-              element.style.backgroundColor = "#ffffff";
-            });
-            listMenu.style.display = "none";
-          }
-        }
-      </script>
-
       <div class="social">
         <a class="gumroad" href="https://splitcg.gumroad.com" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 24 24">
@@ -137,23 +126,6 @@
           </svg>
         </a>
       </div>
-      <script>
-        function redirectToLink(url) {
-          window.location.href = url;
-        }
-        var hoverElements = document.getElementsByTagName('li');
-        var hoverSound = document.querySelector('.hoverSound');
-    
-        var hoverElementsArray = Array.from(hoverElements);
-        // Add hover event listeners to all elements with the class 'hoverElement'
-        hoverElementsArray.forEach(function(element) {
-          element.addEventListener('mouseenter', function() {
-            // Play the sound when hovering
-            hoverSound.play();
-          });
-        });
-
-      </script>
     </header>
 
     <div class="banner">
@@ -174,10 +146,13 @@
           </div>
         </div>
         <div class="gridE">
-          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/JVXLsQlCY5g?si=1L7SYZIwC6o5dtqd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/JVXLsQlCY5g?si=1L7SYZIwC6o5dtqd&amp;start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
         </div>
-        <div class="gridELast">
-          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/FVNN239pmPM?si=CCscXYxNvY6ugJEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="gridE">
+          <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/FVNN239pmPM?si=CCscXYxNvY6ugJEO&amp;start=42:00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="gridE">
+        <iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/xYIxRH-VMOY?si=kA0iYGES-BdHn9TD&amp;start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
 
