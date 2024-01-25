@@ -15,11 +15,3 @@ function toggleActive(trigger) {
       listMenu.style.display = "none";
     }
   }
-
-  function redirectToLink(url) {
-    window.location.href = url;
-  }
-
-  function openLinkInNewTab(url) {
-    window.open(url, '_blank');
-  }
