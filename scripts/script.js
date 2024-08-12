@@ -17,9 +17,6 @@ function toggleActive(trigger) {
   }
 
 
-
-
-
   document.getElementById('contactForm').addEventListener('submit', function(event) {
     const responseMessage = document.getElementById('responseMessage');
     
