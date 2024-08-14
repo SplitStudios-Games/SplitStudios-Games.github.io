@@ -1,0 +1,96 @@
+.containerGrid{
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1em; /* Spacing between grid items */
+    width: 100%;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aspect-ratio-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625 or 56.25%) */
+    background-color: rgb(32, 32, 32);
+}
+
+.aspect-ratio-container2 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%; /* 16:9 aspect ratio (9/16 = 0.5625 or 56.25%) */
+    background-color: rgb(32, 32, 32);
+}
+
+.aspect-ratio-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.buttonsFrame{
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.blenderMarket{
+    font-weight: 400;
+    color: black;
+    font-size: 1.2em;
+    background-color: #FFBF4C;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    border-style: none;
+}
+.gum{
+    font-weight: 400;
+    color: black;
+    font-size: 1.2em;
+    background-color: #ff90e7;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    border-style: none;
+}
+
+.blenderMarket:hover, .gum:hover{
+    color: white;
+    background-color: #0099ff;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    }
+}
