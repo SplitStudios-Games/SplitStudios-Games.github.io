@@ -26,7 +26,7 @@
 }
 .paypal{
     font-weight: 400;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     border-radius: 2em;
     background-color: #FFBF4C;
@@ -36,10 +36,11 @@
     width: 6em;
     border-style: none;
     margin-right: 2em;
+
 }
 .gum{
     font-weight: 400;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     border-radius: 2em;
     background-color: #ff90e7;

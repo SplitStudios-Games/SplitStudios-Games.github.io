@@ -62,7 +62,7 @@
 
 .blenderMarket{
     font-weight: 400;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.2em;
     background-color: #FFBF4C;
     text-align: center;
@@ -73,7 +73,7 @@
 }
 .gum{
     font-weight: 400;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.2em;
     background-color: #ff90e7;
     text-align: center;
